@@ -1,0 +1,7 @@
+names:
+- pistol
+- knife
+nc: 2
+path: ..
+train: training/images
+val: training/images
