@@ -21,7 +21,7 @@ os.makedirs(os.path.join(val_folder, 'images'), exist_ok=True)
 os.makedirs(os.path.join(val_folder, 'labels'), exist_ok=True)
 
 # Set the desired split ratio (train:validation)
-split_ratio = 0.7
+split_ratio = 0.8
 
 # Get the list of image files in the dataset folder
 image_files = [f for f in os.listdir(os.path.join(dataset_folder, 'images')) if f.endswith('.jpg')]
